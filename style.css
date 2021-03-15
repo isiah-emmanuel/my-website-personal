@@ -1,0 +1,26 @@
+.navbar{
+		background-image: url(images/mac-code.jpg);
+	 	background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+  		min-height: 380px;
+}
+.navbackgorund{
+
+}
+.sidebar {
+	font-size: 25px;
+	font-style: bold;
+	float: right;
+}
+.sidebar a{
+	color: white;
+  	padding: 5px 5px;
+  	text-decoration: none;
+}
+body{
+	margin: 0px;
+  	background-color: black;
+  	height: 100%;
+  	width: 100%;
+}
