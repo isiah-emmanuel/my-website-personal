@@ -1,35 +1,45 @@
+.full-nav{
+position: fixed;
+width: 100%; /* Full width */
+}
 .navbar{
-		background-image: url(images/mac-code.jpg);
+	position: fixed;
+	/*the linear gradient adds tint to photos*/
+		background-image: linear-gradient(
+     	rgba(0, 0, 0, 0.5),
+      	rgba(0, 0, 0, 0.5)
+    	),		
+		url(images/mac-code.jpg);
 	 	background-position: center;
   		background-repeat: no-repeat;
   		background-size: cover;
   		min-height: 380px;
+  		transition: 0.2s;
+  		top: 0; 
+  		width: 100%
 }
-.logo{
+.logo{ /*logo styling*/
 	font-size: 25px;
 	color: black;
 	padding: 5px 5px;
+	float: left;
 	text-decoration: none;
 }
-.sidebar {
-	font-size: 25px;
+.sidebar { /*actual nav bar styling*/
+	font-size: 15px;
+	padding: 5px 25px;
 	font-style: bold;
 	float: right;
 }
-.sidebar a{
+.sidebar a{ /*link text in nav bar styling*/
 	color: white;
-  	padding: 5px 5px;
+  	padding: 5px 15px;
   	text-decoration: none;
-}
-.logo{
-	color: black;
-  	padding: 0px 25px;
-	float: left;
 }
 
 body{
 	margin: 0px;
-  	background-color: black;
+  	background-color: white;
   	height: 100%;
   	width: 100%;
 }
