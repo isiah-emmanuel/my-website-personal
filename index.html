@@ -4,25 +4,41 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>TechZai</title>
-
-			<div id="full-nav"> <!-- start div for nav bar -->
-					<nav class="navbar" id="navbar">
-					<!-- nav bar image -->
-					<a href="#logo" class="logo" id="logo">Logo</a>
-					<!-- side bar -->
-					<div class="sidebar">
-					<a href="#">Home</a>
-					<a href="#">Projects</a>
-					<a href="#">Services</a>
-					<a href="#">Contact</a>
-		</div>
-	</nav>
-			</div> <!-- end div for nav bar -->
-</head>
-
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,900&display=swap" rel="stylesheet"/>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<title>TechZai</title>		
+</head>	
 	<body>
-		<div style="margin-top:500px;padding:15px 15px 2500px;font-size:30px">
+		<header>
+		<a href="#logo" class="logo" id="logo">Logo</a>
+			<nav class="navbar" id="navbar">
+				<ul class="nav-list">	
+					<!-- side bar -->
+					<li class="nav-list-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-list-item">
+						<a class="nav-link" href="#">Projects</a>
+					</li>
+					<li class="nav-list-item">
+						<a class="nav-link" href="#">Services</a>
+					</li>
+					<li class="nav-list-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+		</ul>
+	</nav>	
+</header>
+
+<div>
+  <p><b>This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.</b></p>
+  <p>Scroll down this frame to see the effect!</p>
+  <p>Scroll to the top to remove the effect.</p>
+  <p><b>Note:</b> We have also made the navbar responsive, resize the browser window to see the effect.</p>
+  <p>Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<div>
   <p><b>This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.</b></p>
   <p>Scroll down this frame to see the effect!</p>
   <p>Scroll to the top to remove the effect.</p>
@@ -31,5 +47,5 @@
 </div>
 
 	<script src="myjs.js"></script>	
-	</body>
+</body>
 </html>
