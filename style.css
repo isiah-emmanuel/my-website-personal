@@ -11,10 +11,11 @@
 		background-image: linear-gradient(
      	rgba(0, 0, 0, 0.5),
       	rgba(0, 0, 0, 0.5)),		
-		url(images/sitting-lake.jpg);
+		url(images/mac-code.jpg);
 	 	background-position: center;
   		background-repeat: no-repeat;
   		background-size: cover;
+  		border-color: transparent;
 }
 
 #navbar #logo{ /*logo styling*/
@@ -63,8 +64,14 @@
           transform: scaleX(1);
 }
 body{
+	background-image: url(images/pngbackground.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin: 0px;
   	width: 100%;
+  	height: 100%;
 }
 #content-under-nav{
   margin-top:250px;
@@ -88,4 +95,18 @@ body{
   #navbar-right-items {
     float: none;
   }
+}
+.parallax-intro{
+	/*the linear gradient adds tint to photos*/
+		/*background-image: linear-gradient(
+     	rgba(0, 0, 0, 0.5),
+      	rgba(0, 0, 0, 0.5)),		
+		url(images/desk-laptop.jpg);*/
+		background-color: transparent;
+		min-height: 400px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: black;
 }
