@@ -1,5 +1,5 @@
 #navbar {
-		overflow: hidden;
+		  overflow: hidden;
   		padding: 50px 10px; /* Large padding which will shrink on scroll (using JS) */
   		transition: 0.4s; /* Adds a transition effect when the padding is decreased */
   		position: fixed; /* Sticky/fixed navbar */
@@ -7,7 +7,7 @@
   		top: 0; /* At the top */
   		z-index: 99;
   		border-color: transparent;
-  		background-color: white;
+      background-color: white;
 }
 
 .logo{ /*logo styling*/
@@ -17,10 +17,9 @@
 	transition: 0.4s;
 }
 #navbar-items{
-	float: right;
+	 float: right;
   	color: black;
   	font-weight: bold;
-  	/*text-align: center;*/
   	padding: 12px;
   	text-decoration: none;
   	font-size: 18px;
@@ -64,12 +63,14 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0px;
-  	width: 100%;
-  	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 #content-under-nav{
   margin-top:250px;
-  font-size:20px
+  font-size:20px;
+  overflow: hidden;
+  border-collapse: collapse; 
 }
 #content{
   margin-top:10px;
@@ -91,12 +92,8 @@ body{
   }
 }
 .parallax-intro{
-	/*the linear gradient adds tint to photos*/
-		/*background-image: linear-gradient(
-     	rgba(0, 0, 0, 0.5),
-      	rgba(0, 0, 0, 0.5)),		
-		url(images/desk-laptop.jpg);*/
 		background-color: transparent;
+/*    background-image: url(images/Parallax-light.jpg);*/
 		min-height: 400px;
 		background-attachment: fixed;
 		background-position: center;
@@ -105,17 +102,23 @@ body{
 		color: black;
 }
 .content{
-	background-color: transparent;
-		min-height: 400px;
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		color: black;
+	 background-color: transparent;
+   background-image: url(images/Parallax-white.jpg);
+	 min-height: 400px;
+	 background-attachment: fixed;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 color: black;
 }
 footer {
-    background-color: grey;
-    opacity: .5;
+    /*background-color: grey;*/
+    background-image: url(images/desk-laptop.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .4;
     min-height: 150px;
     background-attachment: fixed;
     background-position: center;
@@ -124,31 +127,14 @@ footer {
     color: white;
     text-align: center;
 }
-.section-break {
-  border: 0;
-  background-color: transparent;
-  height: 0;
-  margin: 2rem auto 4rem;
-  text-align: center;
-  width: 100%;
-
-  &:before,
-  &:after {
-    background-color: $break-color;
-    content: '';
-    height: 1px;
-    left: 0;
-    margin: 0 auto;
-    position: absolute;
-    right: 0;
-    width: 7%;
-  }
-
-  &:before {
-    transform: rotate(10deg);
-  }
-
-  &:after {
-    transform: rotate(-10deg);
-  }
+hr { 
+    background: url(images/page-dividers2.png) no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 30px;
+    padding: 0 0 0 0;
+    border: 0;
+    position: relative;
+    background-color: transparent;
 }
+
