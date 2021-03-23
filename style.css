@@ -113,3 +113,42 @@ body{
 		background-size: cover;
 		color: black;
 }
+footer {
+    background-color: grey;
+    opacity: .5;
+    min-height: 150px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.section-break {
+  border: 0;
+  background-color: transparent;
+  height: 0;
+  margin: 2rem auto 4rem;
+  text-align: center;
+  width: 100%;
+
+  &:before,
+  &:after {
+    background-color: $break-color;
+    content: '';
+    height: 1px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 7%;
+  }
+
+  &:before {
+    transform: rotate(10deg);
+  }
+
+  &:after {
+    transform: rotate(-10deg);
+  }
+}
