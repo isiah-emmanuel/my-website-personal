@@ -93,23 +93,34 @@ body{
 }
 .parallax-intro{
 		background-color: transparent;
-/*    background-image: url(images/Parallax-light.jpg);*/
+    background-image: url(images/color-pencils.jpg);
 		min-height: 400px;
 		background-attachment: fixed;
-		background-position: center;
+		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: black;
+    text-align: center;
 }
-.content{
-	 background-color: transparent;
-   background-image: url(images/Parallax-white.jpg);
+.block2{
+  display:flex;
+}
+.content-left{
+  
+   background-image: url(images/code.jpg);
 	 min-height: 400px;
-	 background-attachment: fixed;
-	 background-position: center;
+   width: 50%;
 	 background-repeat: no-repeat;
+   background-position: center center; 
 	 background-size: cover;
-	 color: black;
+}
+.content-right{
+min-height: 400px;
+width: 50%;
+float: right;
+background-color: white;
+background-position: fixed;
+text-align: center;
 }
 footer {
     /*background-color: grey;*/
@@ -137,4 +148,54 @@ hr {
     position: relative;
     background-color: transparent;
 }
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #00edb6;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+/*  position: absolute;
+  top: 50%;
+  left: 50%;*/
+}
+button a{
+  text-decoration: none;
+  color: white;
+}
+button:hover{
+  background-color: #05fcf4;
+}
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 
