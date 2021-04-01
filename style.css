@@ -123,19 +123,14 @@ background-position: fixed;
 text-align: center;
 }
 footer {
-    /*background-color: grey;*/
-    background-image: url(images/desk-laptop.jpg);
+    background-image: url(images/pngbackground.png);
+    
     background-attachment: fixed;
-    background-position: center;
+    /*background-position: center;*/
     background-repeat: no-repeat;
-    background-size: cover;
-    opacity: .4;
+    /*background-size: cover;*/
     min-height: 150px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+    color: black;
     text-align: center;
 }
 hr { 
