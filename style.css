@@ -106,19 +106,12 @@ body{
   display:flex;
 }
 .content-left{
-  
-   background-image: url(images/code.jpg);
-	 min-height: 400px;
-   width: 50%;
-	 background-repeat: no-repeat;
-   background-position: center center; 
-	 background-size: cover;
 }
 .content-right{
-min-height: 400px;
+/*min-height: 400px;
 width: 50%;
-float: right;
-background-color: white;
+float: right;*/
+/*background-color: white;*/
 background-position: fixed;
 text-align: center;
 }
@@ -126,9 +119,9 @@ footer {
     background-image: url(images/pngbackground.png);
     
     background-attachment: fixed;
-    /*background-position: center;*/
+    background-position: center;
     background-repeat: no-repeat;
-    /*background-size: cover;*/
+    background-size: cover;
     min-height: 150px;
     color: black;
     text-align: center;
