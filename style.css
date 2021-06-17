@@ -7,7 +7,7 @@
   		top: 0; /* At the top */
   		z-index: 99;
   		border-color: transparent;
-      background-color: #F587C3;
+      background-color: white;
 }
 
 .logo{ /*logo styling*/
@@ -67,7 +67,7 @@ body{
   height: 100%;
 }
 #content-under-nav{
-  margin-top:250px;
+  margin-top:210px;
   font-size:20px;
   overflow: hidden;
   border-collapse: collapse; 
@@ -186,4 +186,21 @@ button:hover span:after {
   right: 0;
 }
 
+.countdown{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Bungee Shade', cursive;
+}
+
+.count-title{
+  font-size: 1.85rem;
+}
+
+.project-countdown{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 
